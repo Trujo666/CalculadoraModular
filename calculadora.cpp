@@ -3,3 +3,5 @@
  int restar(int a, int b) { return a - b; }
  int multiplicar(int a, int b) { return a * b; }
  int dividir(int a, int b) { return (b != 0) ? a / b : 0; }
+ int potencia(int a, int b) { return pow(a, b); }
+ 
